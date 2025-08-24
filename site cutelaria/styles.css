@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Reset */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: sans-serif; background:#000; color:#fff; }
+
+/* Topo */
+.topo {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:10px 20px; background:#111;
+}
+.logo { width:100px; }
+.nav a {
+  margin-left:20px; color:#ffb202; text-decoration:none;
+}
+.icons { display:flex; align-items:center; }
+.icon { margin-left:15px; font-size:1.2rem; color:#fff; cursor:pointer; }
+.search input {
+  margin-left:15px; padding:5px; border:none; border-radius:3px;
+}
+
+/* Serviços */
+.servicos {
+  display:flex; justify-content:space-around; padding:20px;
+  background:#222;
+}
+.servicos .card {
+  flex:1; margin:0 10px; padding:15px; background:#333;
+  color:#ffb202; text-align:center; border-radius:5px;
+}
+
+/* Lançamentos */
+.lancamentos {
+  padding:30px 20px;
+  text-align:center;
+}
+.lancamentos h2 { color:#ffb202; margin-bottom:20px; }
+.cards {
+  display:flex; flex-wrap:wrap; justify-content:center;
+}
+.card-prod {
+  background:#111; border:1px solid #ffb202; border-radius:5px;
+  padding:20px; margin:10px; width:200px;
+}
+.card-prod h3 { margin-bottom:10px; }
+.preco-antes { text-decoration: line-through; color:#888; }
+.preco-pix { font-weight:bold; color:#ffb202; margin-bottom:10px; }
+.card-prod button {
+  padding:10px; border:none; background:#ffb202; color:#000;
+  cursor:pointer; border-radius:3px;
+}
+
+/* Sobre */
+.sobre { padding:30px 20px; background:#111; text-align:center; }
+.sobre h2 { color:#ffb202; margin-bottom:15px; }
+.sobre p { max-width:600px; margin:0 auto; }
+
+/* Rodapé */
+.footer {
+  padding:30px 20px; background:#111; text-align:center;
+}
+.contato-info p, .newsletter label { margin-bottom:10px; color:#ffb202; }
+.newsletter {
+  margin:20px 0;
+}
+.newsletter input {
+  padding:8px; width:200px; border:none; border-radius:3px;
+}
+.newsletter button {
+  padding:8px; margin-left:5px; background:#ffb202; border:none;
+  border-radius:3px; cursor:pointer; color:#000;
+}
+.pagamentos img, .social img {
+  width:40px; margin:0 5px; vertical-align:middle;
+}
+.copy { margin-top:20px; font-size:0.9rem; color:#888; }
